@@ -10,3 +10,5 @@ There are two example patches included, a very basic one and a second one that r
 For more details on the AI and its architecture, please see the [main autocoder repository](https://github.com/franzson/autocoder).
 
 To train models for the autocoder, see [Link text Here](https://link-url-here.org).
+
+If you want to build your own, you need to first download and instal the Max/MSP SDK and make sure it is all set up and compiling, and then place the /src/autocoder directory inside ~/Documents/Max 8/max-sdk-x.x.x/source/basics, and the /build/autocoder under ~/Documents/Max 8/max-sdk-x.x.x/build/source/basics and then open autocoder.xcodeproj in XCode.
