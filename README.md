@@ -16,4 +16,6 @@ To train models for the autocoder based on a single file, see [Link text Here](h
 
 To train a model based on a corpus of sounds you will need to refer to the [python implementation of the autocoder](https://github.com/franzson/autocoder).
 
+If the models sound sinusoidal or have a lot of artifacts, try lowering the whitening value. If they are boom-y or have resonant peaks, try increasing the brightness. Different models sound better/worse at different generation intervals, you can adjust the range between latent space updates in the time section. A small scooping of the middle frequencies in the filter section is often helpful to produce a more natural sound.
+
 If you want to compile the external by yourself, you need to first download and instal the Max/MSP SDK and make sure it is all set up and compiling and then place the files in the /src/autocoder directory inside ~/Documents/Max 8/max-sdk-x.x.x/source/basics/autocoder, and the files in /build/autocoder under ~/Documents/Max 8/max-sdk-x.x.x/build/source/basics/autocoder and then open autocoder.xcodeproj in XCode.
