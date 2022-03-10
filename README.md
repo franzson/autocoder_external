@@ -12,7 +12,7 @@ For more details on the AI and its architecture, please see the [main autocoder 
 
 You can download an example model [here](https://github.com/franzson/autocoder_models).
 
-To train models for the autocoder based on a single file, see [Link text Here](https://link-url-here.org).
+To train models for the autocoder based on a single file, see [here](https://github.com/franzson/autocoder_training).
 
 To train a model based on a corpus of sounds you will need to refer to the [python implementation of the autocoder](https://github.com/franzson/autocoder).
 
