@@ -4,7 +4,7 @@ This repository contains a compiled external and examples for loading models tra
 
 To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/blob/main/external/autocoder-universal.zip), and copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib.
 
-The first time you open a patch containing the autocoder in Max, you will get an error that the file isn't secure to open. To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
+The first time you initialize the autocoder or open a patch containing the autocoder in Max, you will get an error that the file isn't secure to open. To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
 
 There are two example patches included, a very basic one and a second one that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
