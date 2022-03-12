@@ -2,7 +2,7 @@
 
 This repository contains a compiled external and examples for loading models trained for the Autocoder, an implementation of a variational autoencoder (VAE), into [Max/MSP](https://cycling74.com/). The external only runs on Max/MSP 8.2 or newer.
 
-To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/blob/main/external/autocoder-universal.zip), and copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing <b>sudo mkdir /usr/local/lib<b>. You might need to enter your password.
+To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/blob/main/external/autocoder-universal.zip), and copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing <b>sudo mkdir /usr/local/lib</b>. You might need to enter your password.
 
 The first time you initialize the autocoder or open a patch containing the autocoder in Max, you will get an error that the file isn't secure to open. To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
 
