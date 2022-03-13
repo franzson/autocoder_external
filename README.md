@@ -41,7 +41,7 @@ you can just hit open and it should now work.
 If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
 sudo mkdir /usr/local/lib.
 
-There are two example patches included, a [very basic one]() and a [second more versatile one]() that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
+There are two example patches included, a [very basic one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-simple.zip) and a [second more versatile one]() that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
 For more details on the AI and its architecture, please see the [here](https://github.com/franzson/autocoder).
 
