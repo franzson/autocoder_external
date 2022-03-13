@@ -16,6 +16,8 @@ then run:
 <pre>./install.sh PATH_TO_MAX_EXTERNALS
 e.g. ./install.sh "/Users/username/Documents/Max 8"</pre>
 
+This will ask you for your password, copy the autocoder.mxo external into Max/MSP external pads, create the directory /usr/local/lib if it doesn't already exist, and copy the file libtensorflowlite_c.dylib there.
+
 If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
 <pre>sudo mkdir /usr/local/lib</pre>
 
