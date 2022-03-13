@@ -26,7 +26,13 @@ When you press ok, a second warning pops up:
 
 <img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-2.jpg">
 
-To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
+To solve this, press cancel and then open System Preferences->Security & Privacy.
+Under the general tab there should be an option to allow the software to open the file. 
+
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-3.jpg">
+
+
+Once you do that, close Max/MSP and reopen and it should now work.
 
 If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
 sudo mkdir /usr/local/lib.
