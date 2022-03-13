@@ -18,10 +18,14 @@ e.g. ./install.sh "/Users/username/Documents/Max 8"</pre>
 
 This will ask you for your password, copy the autocoder.mxo external into Max/MSP external pads, create the directory /usr/local/lib if it doesn't already exist, and copy the file libtensorflowlite_c.dylib there.
 
-If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
-<pre>sudo mkdir /usr/local/lib</pre>
+The first time you initialize the autocoder, or open a patch containing it in Max, you will get an error that the file isn't secure to open.
 
-The first time you initialize the autocoder, or open a patch containing the autocoder in Max, you will get an error that the file isn't secure to open. To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-1.jpg">
+
+To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
+
+If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
+sudo mkdir /usr/local/lib.
 
 There are two example patches included, a [very basic one]() and a [second more versatile one]() that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
