@@ -7,7 +7,7 @@ The external only runs on Max/MSP 8.2 or newer on a Mac.
 To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/raw/main/external/autocoder.zip).
 
 Open termainal and navigate to where the file unzipped:
-<pre>cd ~/Downloads/autocoder-universal</pre>
+<pre>cd ~/Downloads/autocoder</pre>
 
 First run: 
 <pre>chmod +x ./install.sh</pre>
