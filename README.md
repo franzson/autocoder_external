@@ -18,9 +18,13 @@ e.g. ./install.sh "/Users/username/Documents/Max 8"</pre>
 
 This will ask you for your password, copy the autocoder.mxo external into Max/MSP external pads, create the directory /usr/local/lib if it doesn't already exist, and copy the file libtensorflowlite_c.dylib there.
 
-The first time you initialize the autocoder, or open a patch containing it in Max, you will get an error that the file isn't secure to open.
+The first time you initialize the autocoder, or open a patch containing it in Max, you will get an error that the file isn't secure to open:
 
 <img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-1.jpg">
+
+When you press ok, a second warning pops up:
+
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-2.jpg">
 
 To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
 
