@@ -43,7 +43,7 @@ sudo mkdir /usr/local/lib.
 
 There are two example patches included, a [very basic one]() and a [second more versatile one]() that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
-For more details on the AI and its architecture, please see the [main autocoder repository](https://github.com/franzson/autocoder).
+For more details on the AI and its architecture, please see the [here](https://github.com/franzson/autocoder).
 
 You can download example models [here](https://github.com/franzson/autocoder_models).
 
