@@ -24,7 +24,7 @@ The first time you initialize the autocoder, or open a patch containing it in Ma
 
 When you press ok, a second warning pops up:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-2.jpg">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-2.jpg" width="50%" height="50%">
 
 To solve this, press cancel and then open System Preferences->Security & Privacy.
 Under the general tab there should be an option to allow the software to open the file:
