@@ -29,7 +29,7 @@ When you press ok, a second warning pops up:
 To solve this, press cancel and then open System Preferences->Security & Privacy.
 Under the general tab there should be an option to allow the software to open the file:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-3.jpg" width="200">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-3.jpg" width="400">
 
 Once you do that, close Max/MSP and reopen it and instansiate the autocoder external. This will throw this warning:
 
