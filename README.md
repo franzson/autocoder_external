@@ -4,9 +4,18 @@ This repository contains a compiled external and examples for loading models tra
 
 The external only runs on Max/MSP 8.2 or newer on a Mac.
 
-To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/raw/main/external/autocoder.zip) and run install.sh <PATH_TO_MAX_EXTERNALS>, e.g. install.sh "/Users/username/Documents/Max 8"
+To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/raw/main/external/autocoder.zip).
+Open termainal and navigate to where the file unzipped. 
 
-If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing sudo mkdir /usr/local/lib. 
+First run 
+<pre>chmod +x ./install.sh</pre>
+
+then run 
+<pre>install.sh <PATH_TO_MAX_EXTERNALS> 
+e.g. install.sh "/Users/username/Documents/Max 8"</pre>
+
+If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
+<pre>sudo mkdir /usr/local/lib</pre>
 
 The first time you initialize the autocoder, or open a patch containing the autocoder in Max, you will get an error that the file isn't secure to open. To solve this, open System Preferences->Security & Privacy and under the general tab there should be an option to allow the software to open the file. Once you do that, close Max/MSP and reopen and it should now work.
 
