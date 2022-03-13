@@ -20,7 +20,7 @@ This will ask you for your password, copy the autocoder.mxo external into Max/MS
 
 The first time you initialize the autocoder, or open a patch containing it in Max, you will get an error that the file isn't secure to open:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-1.jpg" width="50%" height="50%">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-1.jpg" width="50" height="50">
 
 When you press ok, a second warning pops up:
 
