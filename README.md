@@ -4,7 +4,7 @@ This repository contains a compiled external and examples for loading models tra
 
 The external only runs on Max/MSP 8.2 or newer on a Mac.
 
-To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/blob/main/external/autocoder.zip and run install.sh <PATH_TO_MAX_EXTERNALS>, e.g. install.sh "/Users/username/Documents/Max 8"
+To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/blob/main/external/autocoder.zip) and run install.sh <PATH_TO_MAX_EXTERNALS>, e.g. install.sh "/Users/username/Documents/Max 8"
 
 If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing sudo mkdir /usr/local/lib. 
 
