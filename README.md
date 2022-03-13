@@ -20,20 +20,20 @@ This will ask you for your password, copy the autocoder.mxo external into Max/MS
 
 The first time you initialize the autocoder, or open a patch containing it in Max, you will get an error that the file isn't secure to open:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-1.jpg" width="50" height="50">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-1.jpg" width="200">
 
 When you press ok, a second warning pops up:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-2.jpg" width="50%" height="50%">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-2.jpg" width="200">
 
 To solve this, press cancel and then open System Preferences->Security & Privacy.
 Under the general tab there should be an option to allow the software to open the file:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-3.jpg">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-3.jpg" width="200">
 
 Once you do that, close Max/MSP and reopen it and instansiate the autocoder external. This will throw this warning:
 
-<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-4.jpg">
+<img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-4.jpg" width="200">
 
 you can just hit open and it should now work.
 
