@@ -49,12 +49,24 @@ sudo mkdir /usr/local/lib.
 
 There are two example patches included, a [very basic one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-simple.zip) and a [second more versatile one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-advanced.zip) that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
+Simply hit load, select the soundfile in a downloaded model folder (it uses the name of the soundfile to keep track of files needed to be loaded), turn the audio processing on (the speaker button in the simpler patch, the 'audio on' button in the advanced example), and press the 'ON' button to start generating audio. 
+
+You can alternatively generate latent vectors by adjusting the eight sliders in the patch.
+
+Try playing with the brightness, smoothing, whitening, and auto_filter controls to get a sense of what they do. 
+
+In the advanced patch, you can toggle the generator on/off by pressing 'GENERATE' and turn direct convolution or impulse reverb mode on by pressing 'DIR_CONVOLUTION' and 'REVERB' and hitting play on the audioplayer in the top right corner. You can also drag and drop your own soundfiles to use as input for the convolution process right there.
+
 You can download example models [here](https://github.com/franzson/autocoder_models).
 
 To train models for the autocoder, see [here](https://github.com/franzson/autocoder_training).
 
 To train a model based on a corpus of sounds you will need to refer to the [python implementation of the autocoder](https://github.com/franzson/autocoder).
 
-If the models sound sinusoidal or have a lot of artifacts, try lowering the whitening value. If they are boom-y or have resonant peaks, try increasing the brightness. Different models sound better/worse at different generation intervals, you can adjust the range between latent space updates in the time section. A small scooping of the middle frequencies in the filter section is often helpful to produce a more natural sound.
+If the output of the models sounds sinusoidal or has a lot of artifacts, try lowering the whitening value. If they are boom-y or have resonant peaks, try increasing the brightness. If they sound noisy, try increasing the whitening value by a small amount.
+
+Sinusoidal models are sometimes the result of overfitting during training so lowering the model quality and retraining may also solve the problem. Inversely, noisy models are sometimes the result of underfitting during training, so increasing the model quality and retraining may solve noise issues.
+
+Different models sound better/worse at different generation intervals, you can adjust the range between latent space updates in the time section. A small scooping of the middle frequencies in the filter section is often helpful to produce a more natural sound.
 
 If you want to compile the external by yourself, you need to first download and install the Max/MSP SDK and make sure it is all set up and then place the files in the /src/autocoder directory inside ~/Documents/Max 8/max-sdk-x.x.x/source/basics/autocoder, before building the examples with cmake. Rhen open autocoder.xcodeproj in XCode and add the libtensorflowlite_c.dylib to the linker.
