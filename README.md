@@ -4,6 +4,10 @@ This repository contains a compiled external and examples for loading models tra
 
 The external only runs on Max/MSP 8.2 or newer on a Mac.
 
+For more details on the AI and its architecture, please see [here](https://github.com/franzson/autocoder).
+
+## INSTALLATION
+
 To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/raw/main/external/autocoder.zip).
 
 Open terminal and navigate to where the file unzipped:
@@ -41,9 +45,9 @@ you can just hit open and it should now work.
 If for some reason things don't seem to be working, download the package again, but this time copy autocoder.mxo into ~/Documents/Max 8/Packages/autocoder/externals and libtensorflowlite_c.dylib into /usr/local/lib. If the directory doesn't exist then you can create it by opening the terminal and writing 
 sudo mkdir /usr/local/lib.
 
-There are two example patches included, a [very basic one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-simple.zip) and a [second more versatile one]() that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
+## EXAMPLES
 
-For more details on the AI and its architecture, please see [here](https://github.com/franzson/autocoder).
+There are two example patches included, a [very basic one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-simple.zip) and a [second more versatile one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-advanced.zip) that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
 You can download example models [here](https://github.com/franzson/autocoder_models).
 
