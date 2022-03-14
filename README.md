@@ -47,9 +47,9 @@ sudo mkdir /usr/local/lib.
 
 # EXAMPLES
 
-There are two example patches included, a [very basic one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-simple.zip) and a [second more versatile one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-advanced.zip) that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
+There are two example patches included, a [very basic one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-simple.zip) that works out of the box, and a [second more versatile one](https://github.com/franzson/autocoder_external/raw/main/examples/simple/autocoder-advanced.zip) that requires Ircam's [spat](https://forum.ircam.fr/projects/detail/spat/) to be installed.
 
-Simply hit load, select the soundfile in a downloaded model folder (it uses the name of the soundfile to keep track of files needed to be loaded), turn the audio processing on (the speaker button in the simpler patch, the 'audio on' button in the advanced example), and press the 'ON' button to start generating audio. 
+Simply open either patch, hit load, select the soundfile in a downloaded model folder (it uses the name of the soundfile to keep track of files needed to be loaded), turn the audio processing on (the speaker button in the simpler patch, the 'audio on' button in the advanced example), and press the 'ON' button to start generating audio. 
 
 You can alternatively generate latent vectors by adjusting the eight sliders in the patch.
 
