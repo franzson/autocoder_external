@@ -1,4 +1,4 @@
-# autocoder_external
+# AUTOCODER FOR MAX/MSP
 
 This repository contains a compiled external and examples for loading models trained for the Autocoder, an implementation of a variational autoencoder (VAE), into [Max/MSP](https://cycling74.com/) (make sure to install, run and exit Max before continuing, otherwise some target directories might be missing). 
 
