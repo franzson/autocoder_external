@@ -35,7 +35,7 @@ Under the general tab there should be an option to allow the software to open th
 
 <img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-3.jpg" width="400">
 
-Once you do that, close Max/MSP and reopen it and instansiate the autocoder external. This will throw this warning:
+Once you do that, close Max/MSP and reopen it and instansiate the autocoder external (you can do this by loading one of the example patches or by pressing 'n' to add a new object to an empty patch and writing 'autocoder' followed by enter). This will throw this warning:
 
 <img src="https://github.com/franzson/autocoder_external/raw/main/img/warning-4.jpg" width="200">
 
