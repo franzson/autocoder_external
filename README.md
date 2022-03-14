@@ -51,7 +51,7 @@ There are two example patches included, a [very basic one](https://github.com/fr
 
 You can download example models [here](https://github.com/franzson/autocoder_models).
 
-To train models for the autocoder based on a single file, see [here](https://github.com/franzson/autocoder_training).
+To train models for the autocoder, see [here](https://github.com/franzson/autocoder_training).
 
 To train a model based on a corpus of sounds you will need to refer to the [python implementation of the autocoder](https://github.com/franzson/autocoder).
 
