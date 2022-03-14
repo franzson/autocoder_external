@@ -1,11 +1,13 @@
 # AUTOCODER FOR MAX/MSP
 
-This repository contains a compiled external and examples for loading models trained for the Autocoder, an implementation of a variational autoencoder (VAE), into [Max/MSP](https://cycling74.com/). Make sure to install, run and exit Max before continuing, otherwise some target directories might be missing. 
+This repository contains a compiled external and examples for loading models trained for the Autocoder, an implementation of a variational autoencoder (VAE), into [Max/MSP](https://cycling74.com/).
 
 The external only runs on Max/MSP 8.2 or newer on a Mac.
 
 For more details on the AI and its architecture, please see [here](https://github.com/franzson/autocoder).
 
+Make sure to install, run and exit Max before continuing, otherwise some target directories might be missing. 
+ 
 # INSTALLATION
 
 To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/raw/main/external/autocoder.zip).
