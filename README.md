@@ -10,7 +10,7 @@ For more details on the AI and its architecture, please see [here](https://githu
 
 To install the external, download and unzip [this file](https://github.com/franzson/autocoder_external/raw/main/external/autocoder.zip).
 
-Open terminal and navigate to where the file unzipped:
+Open terminal and navigate to where the file was unzipped:
 <pre>cd ~/Downloads/autocoder</pre>
 
 First run: 
