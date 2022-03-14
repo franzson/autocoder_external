@@ -71,4 +71,4 @@ Sinusoidal models are sometimes the result of overfitting during training so low
 
 Different models sound better/worse at different generation intervals, you can adjust the range between latent space updates in the time section. A small scooping of the middle frequencies in the filter section is often helpful to produce a more natural sound.
 
-If you want to compile the external by yourself, you need to first download and install the Max/MSP SDK and make sure it is all set up and then place the files in the /src/autocoder directory inside ~/Documents/Max 8/max-sdk-x.x.x/source/basics/autocoder, before building the examples with cmake. Rhen open autocoder.xcodeproj in XCode and add the libtensorflowlite_c.dylib to the linker.
+If you want to compile the external by yourself, you need to first download and install the Max/MSP SDK and make sure it is all set up and then place the files in the /src/autocoder directory inside ~/Documents/Max 8/max-sdk-x.x.x/source/basics/autocoder, before building the examples with cmake. Then open autocoder.xcodeproj in XCode and add the libtensorflowlite_c.dylib to the linker.
