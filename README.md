@@ -16,7 +16,7 @@ then run:
 <pre>./install.sh PATH_TO_MAX_EXTERNALS
 e.g. ./install.sh "/Users/username/Documents/Max 8"</pre>
 
-This will ask you for your password, copy the autocoder.mxo external into Max/MSP external pads, create the directory /usr/local/lib if it doesn't already exist, and copy the file libtensorflowlite_c.dylib there.
+The install script will ask you for your password, attempt to copy the autocoder.mxo external into Max/MSP external pads, then create the directory /usr/local/lib if it doesn't already exist, and attempt to copy the file libtensorflowlite_c.dylib there.
 
 The first time you initialize the autocoder, or open a patch containing it in Max, you will get an error that the file isn't secure to open:
 
