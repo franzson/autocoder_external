@@ -156,6 +156,18 @@ void autocoder_free(t_autocoder *x){
     TfLiteInterpreterOptionsDelete(x->options);
     TfLiteModelDelete(x->model);
 
+    if (x->output) {
+        free(x->output);
+        x->output = NULL;
+    }
+    if (x->z_1) {
+        free(x->z_1);
+        x->z_1 = NULL;
+    }
+    if (x->out) {
+        free(x->out);
+        x->out = NULL;
+    }
 }
 
 
